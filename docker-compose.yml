@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: durable_postgres
+    environment:
+      POSTGRES_USER: durable
+      POSTGRES_PASSWORD: durable
+      POSTGRES_DB: durable
+    ports:
+      - "5432:5432"
+    volumes:
+      - durable_pgdata:/var/lib/postgresql/data
+
+volumes:
+  durable_pgdata:

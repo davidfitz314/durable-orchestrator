@@ -270,5 +270,5 @@ Planned enhancements:
 
 Author
 
-David Chen-Fitzgerald
+David Chen-Fitzgerald Copyright © 2026
 Software Engineer focused on distributed systems and AI infrastructure.

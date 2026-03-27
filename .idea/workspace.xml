@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb556be6-f394-4e3f-834e-b4285320c3d4" name="Changes" comment="">
+    <list default="true" id="eb556be6-f394-4e3f-834e-b4285320c3d4" name="Changes" comment="feat: add parallel worker execution with SKIP LOCKED coordination&#10;&#10;- support multiple runnable steps per workflow&#10;- demonstrate concurrent execution across worker processes&#10;- add slow_add step for visibility of parallelism&#10;- improve worker logging for step claim and completion&#10;- validate distributed coordination using SELECT FOR UPDATE SKIP LOCKED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/worker/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +94,24 @@
       <updated>1772590502638</updated>
       <workItem from="1772590503657" duration="291000" />
       <workItem from="1772592270668" duration="3547000" />
-      <workItem from="1774581482622" duration="827000" />
+      <workItem from="1774581482622" duration="1538000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add parallel worker execution with SKIP LOCKED coordination&#10;&#10;- support multiple runnable steps per workflow&#10;- demonstrate concurrent execution across worker processes&#10;- add slow_add step for visibility of parallelism&#10;- improve worker logging for step claim and completion&#10;- validate distributed coordination using SELECT FOR UPDATE SKIP LOCKED">
+      <option name="closed" value="true" />
+      <created>1774582355863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774582355863</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add parallel worker execution with SKIP LOCKED coordination&#10;&#10;- support multiple runnable steps per workflow&#10;- demonstrate concurrent execution across worker processes&#10;- add slow_add step for visibility of parallelism&#10;- improve worker logging for step claim and completion&#10;- validate distributed coordination using SELECT FOR UPDATE SKIP LOCKED" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add parallel worker execution with SKIP LOCKED coordination&#10;&#10;- support multiple runnable steps per workflow&#10;- demonstrate concurrent execution across worker processes&#10;- add slow_add step for visibility of parallelism&#10;- improve worker logging for step claim and completion&#10;- validate distributed coordination using SELECT FOR UPDATE SKIP LOCKED" />
   </component>
 </project>
